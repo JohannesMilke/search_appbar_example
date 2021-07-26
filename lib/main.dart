@@ -59,11 +59,11 @@ class _MainPageState extends State<MainPage> {
       items: [
         BottomNavigationBarItem(
           icon: Text('SearchAppBar', style: style),
-          title: Text('Local'),
+          label: 'Localis',
         ),
         BottomNavigationBarItem(
           icon: Text('SearchAppBar', style: style),
-          title: Text('Network'),
+          label: 'Network',
         ),
       ],
       onTap: (int index) => setState(() => this.index = index),
